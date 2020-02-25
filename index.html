@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>FizzBuzz</title>
+    </head>
+    <body>
+        <h1>Game of FizzBuzz in the console :)</h1>
+
+    <script>
+        function fizzBuzz() {
+            for (num = 0; num < 100; num++) {
+                if (num % 3 == 0 && num % 5 == 0) {
+                    console.log("FizzBuzz");
+                } else if (num % 3 == 0) {
+                    console.log("Fizz");
+                } else if (num % 5 == 0) {
+                    console.log("Buzz");
+                } else {
+                    console.log(num);
+                }
+            }
+        }
+
+        fizzBuzz();
+    </script>
+    </body>
+</html>
